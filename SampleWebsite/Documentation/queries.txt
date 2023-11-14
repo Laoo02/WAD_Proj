@@ -1,0 +1,7 @@
+//INSERT user
+INSERT INTO users (name, username, password) VALUES ('Andrei Ion', 'Aio', 'AI23');
+
+//UPDATE change username,password
+UPDATE users SET username ='BlaBla', password = 'real2015' WHERE id= 2 AND username = 'nume';
+
+INSERT INTO watches (name,amount,price) VALUES (:name,:username, :password)

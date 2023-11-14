@@ -1,0 +1,34 @@
+<?php
+
+$sensitiveData = "password";
+
+$salt = bin2hex(random_bytes(16)); //salting mechanism
+
+$pepper = "WhoNeedsSecurePasswords";
+
+//echo "<br>" . $salt;
+
+$unHashedData = $sensitiveData . $salt . $pepper;
+
+$hash = hash("sha256", $unHashedData);
+
+//echo "<br>" . $hash;
+
+
+
+
+/*$sensitiveData2 = "password";
+
+$storeSalt = $salt;
+$storeHash = $hash;
+
+$pepper = "WhoNeedsSecurePasswords";
+
+$unHashedData2 = $sensitiveData2 . $storeSalt . $pepper;
+$verify_hash = hash("sha256", $unHashedData2);
+
+if ($storeHash === $verify_hash) {
+    echo "data matches";
+} else {
+    echo "invalid credentials!";
+}*/

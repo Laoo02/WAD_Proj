@@ -1,0 +1,23 @@
+
+body{
+    padding: 15%;
+    background-image: url('Images/LoginBackground.jpeg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+
+div{
+     font-size: 20px;
+     background-color:#FFFDD0 ;
+  
+}
+
+#ForgotAcc{
+    background-color: #FFFDD0;
+}
+
+#form-error{
+    font-size: 20px;
+    background-color:#FFFDD0 ;
+}

@@ -1,0 +1,141 @@
+<?php
+
+require_once '../IncFiles/config.php';
+require_once "../IncFiles/dbh.php";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watches,com</title>
+
+    <link rel="stylesheet" href="Login.css" type="text/css">
+
+</head>
+
+<body>
+
+    <h2>Admin Panel</h2>
+
+
+
+    <form action="AddWatch.php" method="post">
+
+
+        <div class="container">
+
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="name">
+
+            <br>
+
+            <label for="amount"><b>Amount</b></label>
+            <input type="number" placeholder="Enter Amount" name="amount">
+
+            <br>
+
+
+            <label for="price"><b>Price</b></label>
+            <input type="number" placeholder="Enter Price" name="price">
+
+            <br>
+
+            <button>Add Watch</button>
+
+        </div>
+
+
+
+    </form>
+
+    <br>
+    <br>
+
+
+    <form action="ChangePassword.php" method="post">
+
+
+        <div class="container">
+
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username">
+
+            <br>
+
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password">
+
+            <br>
+
+            <button>Change Password</button>
+
+        </div>
+
+
+
+    </form>
+
+    <br>
+    <br>
+
+    <form action="ChangeWatchAmount.php" method="post">
+
+
+        <div class="container">
+
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="name">
+
+            <br>
+
+            <label for="amount"><b>Amount</b></label>
+            <input type="password" placeholder="Enter Amount" name="amount">
+
+            <br>
+
+            <button>Change Watch Amount</button>
+
+        </div>
+
+
+
+    </form>
+
+    <br>
+    <br>
+
+    <form action="DeleteUser.php" method="post">
+
+
+        <div class="container">
+
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="name">
+
+            <br>
+
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username">
+
+            <br>
+
+            <button>Change Password</button>
+
+        </div>
+
+
+    </form>
+
+    <br>
+    <br>
+
+    <button><a href="../LoginPage.php">Go back to Login</a></button>
+
+
+    <button><a href="../Home.php">Go back to Home page</a></button>
+</body>
+
+</html>

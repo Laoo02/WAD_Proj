@@ -1,0 +1,97 @@
+body{
+    background-color: #D4CAA3;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#TopMenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  #TopMenuEntries {
+    float: left;
+  }
+
+  #Cart{
+    float: right;
+    background-color: #FFFDD0;
+  }
+  
+  #Cart a{
+    color: #000;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  
+  #TopMenuEntries a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  ol{
+    list-style-type: none;
+  }
+
+  #WatchButton{
+    width: 150px;
+    
+  }
+
+  #WatchButton :hover{
+    background-color: white;
+}
+
+#StorePage{
+    float: left;
+}
+
+  img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 200px;
+  }
+
+  
+
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+  }
+  
+  th, td {
+    background-color: #96D4D4;
+  }
+  th, td {
+  background-color: #96D4D4;
+}
+
+
+/*.OrdersTable{
+  margin: 0 auto;
+}
+
+.OrdersTable td,.OrdersTable th{
+ text-align: center;
+ vertical-align: middle;
+}*/
